@@ -1,0 +1,31 @@
+# ── Core data science ─────────────────────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+
+# ── NLP / Entity Extraction ───────────────────────────────────────────────────
+spacy==3.7.4
+# After pip install, run: python -m spacy download en_core_web_sm
+# Or install directly from URL:
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# ── Semantic embeddings & vector search ───────────────────────────────────────
+sentence-transformers==2.7.0
+faiss-cpu==1.8.0
+
+# ── Knowledge Graph (Neo4j) ───────────────────────────────────────────────────
+neo4j==5.19.0
+
+# ── LLM — Google Gemini ───────────────────────────────────────────────────────
+google-generativeai==0.5.4
+
+# ── RAG orchestration ─────────────────────────────────────────────────────────
+langchain==0.1.20
+langchain-community==0.0.38
+
+# ── Dashboard ─────────────────────────────────────────────────────────────────
+streamlit==1.33.0
+pyvis==0.3.2
+
+# ── Environment / security ────────────────────────────────────────────────────
+python-dotenv==1.0.1
